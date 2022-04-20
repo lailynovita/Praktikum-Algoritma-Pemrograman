@@ -12,10 +12,10 @@ int main()
 
  	//Algoritma
 	SEQSearchX1(Tabel_T, N, &IX, X);
-    if(IX == -1)
+    	if(IX == -1)
 	{
-    	printf("\nElemen tidak ditemukan)\n");
-    }
+    		printf("\nElemen tidak ditemukan)\n");
+    	}
 	else
 	{
 		printf("Elemen berada pada index ke-%d", IX);
